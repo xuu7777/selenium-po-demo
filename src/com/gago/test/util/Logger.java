@@ -15,7 +15,7 @@ public class Logger {
 
     private static void WriteLog(String logEntry) {
         // 定义日志文件保存路径和日志文件名称
-        logFileName = ".\\Log" + "\\" + OutputFileName + ".log";
+        logFileName = ".\\log" + "\\" + OutputFileName + ".log";
         try {
             File logFile = new File(logFileName);
             if (!logFile.exists()) {
