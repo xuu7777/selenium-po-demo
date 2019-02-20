@@ -25,11 +25,11 @@ public class LoginPage extends BasePage {
     }
 
     public void inputUserName() {
-        input(username, "xujingbo1021@sina.com");
+        input(username, "xujingbo*****@******.com");
     }
 
     public void inputPassWord() {
-        input(password, "xujingbo1995");
+        input(password, "xujingbo*********");
     }
 
     public void clickLoginBtn() {
