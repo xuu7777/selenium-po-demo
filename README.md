@@ -1,1 +1,4 @@
-# selenium-po-demo
+#####运行测试：
+```aidl
+mvn test
+```
