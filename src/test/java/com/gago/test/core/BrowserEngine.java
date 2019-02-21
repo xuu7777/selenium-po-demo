@@ -40,7 +40,7 @@ public class BrowserEngine {
     /**
      * 获取webdriver驱动
      *
-     * @return
+     * @return driver
      */
     public WebDriver getBrowser() {
         if (browserName.equalsIgnoreCase("Chrome")) {
@@ -71,7 +71,7 @@ public class BrowserEngine {
     /**
      * 隐式等待，如果超出了设置时间的则抛出异常。
      *
-     * @param time
+     * @param time: 等待秒数
      */
     public void callWait(int time) {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -19,7 +19,7 @@ public class BasePage {
     /**
      * 清除文本框内容
      *
-     * @param element
+     * @param element: 元素名称
      */
     protected void clean(WebElement element) {
         try {
@@ -36,7 +36,7 @@ public class BasePage {
     /**
      * 点击元素
      *
-     * @param element
+     * @param element: 元素名称
      */
     protected void click(WebElement element) {
         try {
@@ -75,8 +75,8 @@ public class BasePage {
     /**
      * 在文本框输入内容
      *
-     * @param element
-     * @param text
+     * @param element: 元素名称
+     * @param text:    输入的内容
      */
     protected void input(WebElement element, String text) {
         try {
@@ -95,7 +95,7 @@ public class BasePage {
     /**
      * 判断一个元素是否在页面显示
      *
-     * @param string
+     * @param element: 元素名称
      */
     protected void verifyElementIsPresent(WebElement element) {
         try {

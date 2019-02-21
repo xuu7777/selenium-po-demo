@@ -31,7 +31,13 @@ public class Logger {
         }
     }
 
-    // 获取当前系统时间，得到格式化时间字符串
+    /**
+     * 获取当前系统时间，得到格式化时间字符串
+     *
+     * @param date:   当前时间
+     * @param format: 时间格式
+     * @return date
+     */
     private static String getDateTimeByFormat(Date date, String format) {
         SimpleDateFormat df = new SimpleDateFormat(format);
         return df.format(date);

@@ -1,7 +1,5 @@
 package com.gago.test.testsuite;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
@@ -13,10 +11,10 @@ import com.gago.test.page.LoginPage;
 
 public class TestUserLogin {
 
-    public WebDriver driver;
+    private WebDriver driver;
 
     @BeforeClass
-    public void setUp() throws IOException {
+    public void setUp() {
         BrowserEngine browserEngine = new BrowserEngine();
         browserEngine.initConfigData();
         driver = browserEngine.getBrowser();
@@ -24,7 +22,7 @@ public class TestUserLogin {
     }
 
     @Test
-    public void userLogin() throws InterruptedException {
+    public void userLogin() {
         LoginPage lp = PageFactory.initElements(driver, LoginPage.class);
         lp.inputUserName();
         lp.inputPassWord();
