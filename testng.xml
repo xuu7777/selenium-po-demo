@@ -10,4 +10,7 @@
             </class>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="com.gago.test.util.ExtentTestNGIReporterListener"></listener>
+    </listeners>
 </suite>
