@@ -27,6 +27,7 @@ public class TestUserLogin {
         lp.inputUserName();
         lp.inputPassWord();
         lp.clickLoginBtn();
+
     }
 
     @AfterClass

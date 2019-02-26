@@ -11,7 +11,7 @@ public class LoginPage extends BasePage {
     @FindBy(className = "username")
     WebElement username;
 
-    @FindBy(className = "password")
+    @FindBy(className = "password11111111111111111111111111111111")
     WebElement password;
 
     @FindBy(xpath = "/html/body/div[1]/div/div[2]/div/div/div[4]/div[1]/div[1]/div[7]/div[1]/a[1]")
